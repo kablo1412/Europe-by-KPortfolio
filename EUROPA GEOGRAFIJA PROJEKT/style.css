@@ -1,0 +1,97 @@
+
+#content {
+  background-color: var(--plava);
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-bottom: 200px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 12vh;
+  width: 100%;
+  background-color: var(--plava);
+  display: flex;
+}
+.alphabet {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+.alphabet a {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #a8a8a8;
+  text-decoration: none;
+}
+.alphabet a:hover {
+  color: white;
+  transition: 0.2s;
+}
+.flag-area {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+#flag-a,
+#flag-b,
+#flag-c,
+#flag-d,
+#flag-e,
+#flag-f,
+#flag-g,
+#flag-h,
+#flag-i,
+#flag-k,
+#flag-l,
+#flag-m,
+#flag-n,
+#flag-p,
+#flag-r,
+#flag-s,
+#flag-t,
+#flag-u,
+#flag-v {
+  padding-top: 100px;
+}
+.flag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 230px;
+  padding: 10px auto;
+  margin: 10px;
+}
+.flag .name {
+  text-align: left;
+  width: 900px;
+  font-size: 0.5rem;
+  color: white;
+  letter-spacing: 1.3px;
+  padding-left: 20px;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.footer {
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  background-color: var(--plava);
+  padding-bottom: 15px;
+}
+
+.footer h2 {
+  color: silver;
+  font-size: 0.9rem;
+  font-weight: 200;
+}

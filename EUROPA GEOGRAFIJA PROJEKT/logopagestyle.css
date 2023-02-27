@@ -1,0 +1,35 @@
+
+.container {
+  height: 100vh;
+  background-color: var(--plava);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+}
+.logo img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.naslov {
+  color: var(--siva);
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  color: var(--siva);
+  font-size: 65px;
+}
+a:hover{
+  color: white;
+  transition: .3s;
+}
